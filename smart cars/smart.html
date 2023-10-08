@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMART CARS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+   
+        <header class="grid">   
+        <h1>VELOCITY<span class="span1">DRIVE</span></h1>
+        <a class="menu-button" onclick=showsidebar()><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></a>  
+        <ul class="sidebar">
+            <a onclick=hidesidebar()><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg></a>
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">SERVICES</a>
+            <a href="#">STAFF</a>
+            <a href="#">BLOG</a>
+            <a href="#">CONTACTS</a>  
+       </ul>
+        </header>
+        <nav class="grid hideonmobile"> 
+            <ul>
+                <a href="#">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">SERVICES</a>
+                <a href="#">STAFF</a>
+                <a href="#">BLOG</a>
+                <a href="#">CONTACTS</a>
+                <a><img src="image/facebook.svg"></a> 
+                <a><img src="image/linkedin.svg"></a>
+                <a><img src="image/instagram.svg"></a>
+                <a><img src="image/twitter (1).svg"></a> 
+                <a><img src="image/mail.svg"></a>
+                
+           </ul>
+        </nav>
+    <main class="grid">    
+        <div class="section1">
+            <h2>"Discover Your Dream Ride at Velociyt Drive<br>Where Speed Meets Style"</h2>
+            <h4>Your Destination for exquisite cars.<br>Expore our premium collection, enjoy Seamless financing,<br>and embark on automative journey where luxury and performace merge effortlessly.</h4>
+            <a href="#"><button>ABOUT US</button></a>
+        </div>
+        <h3>SERVICES</h3>
+        <div class="what-we-do">
+            <div class="card">
+                <img>
+                <h4>Car Sales</h4>
+                <p>Our car sale company brings you a diverse array of options, including new and used vehicles to suit every preference and budget. Our dedicated team assists you in finding the perfect car, providing expert advice on various makes and models. With a hassle-free trade-in process, you can easily upgrade to your dream vehicle.</p> 
+            </div>
+            <div class="card">
+                <img>
+                <h4>Financing and Leasing</h4>
+                <p>Securing your new car is made simple with our comprehensive financing and leasing services. Our financial experts guide you through tailored auto loan and lease options, ensuring you make an informed decision. Pre-approval processes streamline the purchase, offering convenience and peace of mind.</p>
+            </div>
+            <div class="card">
+                <img>
+                <h4>Test Drives</h4>
+                <p>Experience your prospective car firsthand through our test drive services. Our team arranges convenient test drives, and our experts accompany you to provide insightful comparisons, helping you select a vehicle that perfectly matches your preferences and driving needs.</p> 
+            </div>
+            <div class="card">
+                <img>
+                <h4>Warranty and Service Plans</h4>
+                <p>Drive with confidence knowing your investment is protected by our warranty options and service plans. Whether you choose a new or certified pre-owned vehicle, we offer comprehensive coverage and maintenance packages to ensure a worry-free ownership experience.</p> 
+            </div>
+        </div>
+        <section class="gallery">
+            <h3>Gallery</h3>
+            <div class="images">
+                <img src="image/11..jpg">
+                <img src="image/12.jpg">
+                <img src="image/13.jpg">
+                <img src="image/14.jpg">
+                <img src="image/15.jpg">
+                <img src="image/16.jpg">
+                <img src="image/17.jpg">
+                <img src="image/18.jpg">
+            </div>
+        </section>
+        <footer>
+            <div class="social-media">
+                <a><img src="image/facebook1.svg"></a> 
+                <a><img src="image/linkedin1.svg"></a>
+                <a><img src="image/instagram1.svg"></a>
+                <a><img src="image/twitter1.svg"></a> 
+                <a><img src="image/mail.svg"></a> 
+            </div>
+            <p>Copyright &copy; 2023, website by Akinzs</p>
+        </footer>
+    </main>
+    <script>
+        function showsidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hidesidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none' 
+        }
+    </script>
+</body>
+</html>
